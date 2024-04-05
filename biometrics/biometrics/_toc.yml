@@ -13,3 +13,5 @@ parts:
   - caption: Processing
     chapters:
     - file: WhisperX
+  - caption: Benchmarks
+  - caption: Metrics
