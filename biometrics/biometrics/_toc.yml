@@ -14,4 +14,8 @@ parts:
     chapters:
     - file: WhisperX
   - caption: Benchmarks
+    chapters:
+    - file: benchmark.md
   - caption: Metrics
+    chapters:
+    - file: metric.md
