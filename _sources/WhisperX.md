@@ -2,7 +2,7 @@
 
 # An In-depth Exploration of WhisperX: A Cutting-Edge Automatic Speech Recognition System
 
-WhisperX is a state-of-the-art automatic speech recognition (ASR) system, developed by OpenAI. It is designed to provide rapid transcription services, complete with word-level timestamps and speaker diarization.
+{cite}`bain2022whisperx` is a state-of-the-art automatic speech recognition (ASR) system, developed by OpenAI. It is designed to provide rapid transcription services, complete with word-level timestamps and speaker diarization.
 
 ## Key Features
 
@@ -39,3 +39,5 @@ To utilize WhisperX, follow the steps outlined below:
 
 WhisperX represents a significant advancement in the field of automatic speech recognition. Its ability to provide word-level timestamps and speaker diarization makes it an invaluable tool for transcribing long audio files. However, users should be cognizant of its limitations when dealing with particularly short or long audio files, and when differentiating between similar sounding speakers.
 
+```{bibliography}
+```
