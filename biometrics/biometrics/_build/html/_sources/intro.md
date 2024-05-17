@@ -1,6 +1,6 @@
 # Welcome to the Biometrics Book
 
-Welcome to this Jupyter Book on Voice and Speech Processing. This book is designed as a comprehensive guide that brings together various tools and techniques in the field of voice and speech processing. It aims to serve as a valuable resource for both beginners and advanced readers interested in this area of research.
+This book is designed as a comprehensive guide that brings together various tools and techniques in biometrics, such as voice and speech processing. It aims to serve as a valuable resource for both beginners and advanced readers interested in this area of research.
 
 ## Purpose of the Book
 

@@ -10,7 +10,7 @@ parts:
   - caption: Quality Control
     chapters:
     - file: QC
-  - caption: Processing
+  - caption: Pipelines
     chapters:
     - file: WhisperX
   - caption: Benchmarks
@@ -19,3 +19,6 @@ parts:
   - caption: Metrics
     chapters:
     - file: metric.md
+  - caption: Synthetic Generation
+    chapters:
+    - file: augmentations.md
