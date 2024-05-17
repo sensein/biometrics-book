@@ -1,4 +1,4 @@
-# Synthetic Generation (for augmentations for audio, noise insertion)
+# Synthetic Generation
 
 Synthetic generation plays a pivotal role in enhancing voice and speech datasets, especially when real-world data is scarce or noisy. This section covers methods for creating synthetic audio data, including techniques for augmenting existing datasets with various noise profiles and other transformations. These strategies not only improve model robustness but also expand the diversity of training data, leading to more resilient and adaptable speech systems.
 
