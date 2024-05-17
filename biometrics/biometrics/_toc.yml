@@ -15,10 +15,13 @@ parts:
     - file: WhisperX
   - caption: Benchmarks
     chapters:
-    - file: benchmark.md
+    - file: benchmark
   - caption: Metrics
     chapters:
-    - file: metric.md
+    - file: metric
   - caption: Synthetic Generation
     chapters:
-    - file: augmentations.md
+    - file: augmentations
+  - caption: Challenges
+    chapters:
+    - file: challenges

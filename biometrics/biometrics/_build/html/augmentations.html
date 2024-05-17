@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Augmentations for Audio &#8212; biometrics</title>
+    <title>Synthetic Generation (for augmentations for audio, noise insertion) &#8212; biometrics</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -60,6 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'augmentations';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Challenges" href="challenges.html" />
     <link rel="prev" title="Metrics" href="metric.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -198,7 +199,11 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Synthetic Generation</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Augmentations for Audio</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Synthetic Generation (for augmentations for audio, noise insertion)</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Challenges</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="challenges.html">Challenges</a></li>
 </ul>
 
     </div>
@@ -382,7 +387,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Augmentations for Audio</h1>
+    <h1>Synthetic Generation (for augmentations for audio, noise insertion)</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -396,12 +401,13 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="augmentations-for-audio">
-<h1>Augmentations for Audio<a class="headerlink" href="#augmentations-for-audio" title="Link to this heading">#</a></h1>
-<ul class="simple">
-<li><p>Noise insertion</p></li>
-<li><p>Example: Audiomentations, a Python library for audio data augmentation</p></li>
-</ul>
+  <section class="tex2jax_ignore mathjax_ignore" id="synthetic-generation-for-augmentations-for-audio-noise-insertion">
+<h1>Synthetic Generation (for augmentations for audio, noise insertion)<a class="headerlink" href="#synthetic-generation-for-augmentations-for-audio-noise-insertion" title="Link to this heading">#</a></h1>
+<p>Synthetic generation plays a pivotal role in enhancing voice and speech datasets, especially when real-world data is scarce or noisy. This section covers methods for creating synthetic audio data, including techniques for augmenting existing datasets with various noise profiles and other transformations. These strategies not only improve model robustness but also expand the diversity of training data, leading to more resilient and adaptable speech systems.</p>
+<div class="tip admonition">
+<p class="admonition-title">Example: audiomentations</p>
+<p>One powerful tool for audio data augmentation is the <code class="docutils literal notranslate"><span class="pre">audiomentations</span></code> Python library. This library provides a wide range of techniques to transform audio data, such as adding noise, changing pitch, and applying time stretch. By leveraging <code class="docutils literal notranslate"><span class="pre">audiomentations</span></code>, researchers can create diverse training datasets that help models become more robust and adaptable to real-world audio variations.</p>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -442,6 +448,15 @@ document.write(`
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">Metrics</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="challenges.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Challenges</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
