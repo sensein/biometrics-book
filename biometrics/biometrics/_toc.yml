@@ -19,6 +19,7 @@ parts:
   - caption: Metrics
     chapters:
     - file: metric
+    - file: features
   - caption: Synthetic Generation
     chapters:
     - file: augmentations
