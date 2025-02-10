@@ -10,6 +10,7 @@ parts:
   - caption: Quality Control
     chapters:
     - file: QC
+    - file: voice_qc
   - caption: Pipelines
     chapters:
     - file: WhisperX
