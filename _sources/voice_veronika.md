@@ -13,13 +13,15 @@ Harmonics-to-noise ratio (HNR) is the ratio between the fundamental frequency an
 #### Pathological Voices
 Here are some samples of pathological voices:
 
-https://github.com/user-attachments/assets/f91a9a2e-2949-4f76-afff-81f517655d9a
+**Sample 1**
+<audio controls>
+  <source src="https://github.com/user-attachments/assets/f91a9a2e-2949-4f76-afff-81f517655d9a" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
-jitter:  0.037900850606389244
-
-shimmer: 1.676462834189108
-
-HNR: 1.2947330281343084
+- **Jitter**: 0.037900850606389244  
+- **Shimmer**: 1.676462834189108  
+- **HNR**: 1.2947330281343084 
 
 https://github.com/user-attachments/assets/a5a83052-c494-4d95-9014-76926fa0fc2e
 
